@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biker Zone</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="container mx-auto px-5 font-pop md:space-y-12">
+      <!-- navbar section  -->
+      <div class="navbar bg-base-100">
+        <div class="grow">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
+            >
+              <li><a href="">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <a class="text-3xl font-bold">Bike Dekho</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <a
+            class="btn btn-primary border-none bg-[#e76f51] text-white hover:bg-[#e76f51da]"
+            >Login</a
+          >
+        </div>
+      </div>
+
+      <!-- banner section  -->
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <div
+            class="mx-auto items-center justify-between rounded-lg bg-[#E76F511A] px-5 py-10 md:flex md:p-16 lg:p-24"
+          >
+            <!-- text part -->
+            <div class="space-y-5 md:w-1/2">
+              <h1
+                class="text-2xl font-extrabold text-black sm:text-3xl md:text-4xl/snug lg:text-5xl/snug"
+              >
+                Ride-on R15 V4 with Smile
+              </h1>
+              <p class="text-sm text-[#000000CC] sm:text-base">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-[#E76F51] text-white">Purchase</button>
+            </div>
+            <!-- image part -->
+            <div class="mx-auto w-8/12 md:mx-0 md:w-auto">
+              <img src="./assets/slider/bike1.png" class="w-full" />
+            </div>
+          </div>
+          <div
+            class="absolute left-1 right-1 top-2/3 flex -translate-y-1/2 transform justify-between md:left-6 md:right-6 md:top-1/2 lg:left-10 lg:right-10"
+          >
+            <a
+              href="#slide4"
+              class="btn btn-circle bg-transparent text-3xl text-black shadow-none"
+              >❮</a
+            >
+            <a
+              href="#slide2"
+              class="btn btn-circle bg-transparent text-3xl text-black shadow-none"
+              >❯</a
+            >
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <div
+            class="mx-auto items-center justify-between rounded-lg bg-[#E76F511A] px-5 py-10 md:flex md:p-16 lg:p-24"
+          >
+            <!-- text part -->
+            <div class="space-y-5 md:w-1/2">
+              <h1
+                class="font-extrabold text-black md:text-4xl/snug lg:text-5xl/snug"
+              >
+                Ride-on R15 V4 with Smile
+              </h1>
+              <p class="text-[#000000CC]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-[#E76F51] text-white">Purchase</button>
+            </div>
+            <!-- image part -->
+            <div class="mx-auto w-8/12 md:mx-0 md:w-auto">
+              <img src="./assets/slider/bike2.png" class="w-full" />
+            </div>
+          </div>
+          <div
+            class="absolute left-1 right-1 top-2/3 flex -translate-y-1/2 transform justify-between md:left-6 md:right-6 md:top-1/2 lg:left-10 lg:right-10"
+          >
+            <a
+              href="#slide1"
+              class="btn btn-circle bg-transparent text-3xl text-black shadow-none"
+              >❮</a
+            >
+            <a
+              href="#slide3"
+              class="btn btn-circle bg-transparent text-3xl text-black shadow-none"
+              >❯</a
+            >
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <div
+            class="mx-auto items-center justify-between rounded-lg bg-[#E76F511A] px-5 py-10 md:flex md:p-16 lg:p-24"
+          >
+            <!-- text part -->
+            <div class="space-y-5 md:w-1/2">
+              <h1
+                class="font-extrabold text-black md:text-4xl/snug lg:text-5xl/snug"
+              >
+                Ride-on R15 V4 with Smile
+              </h1>
+              <p class="text-[#000000CC]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-[#E76F51] text-white">Purchase</button>
+            </div>
+            <!-- image part -->
+            <div class="mx-auto w-8/12 md:mx-0 md:w-auto">
+              <img src="./assets/slider/bike3.png" class="w-full" />
+            </div>
+          </div>
+          <div
+            class="absolute left-1 right-1 top-2/3 flex -translate-y-1/2 transform justify-between md:left-6 md:right-6 md:top-1/2 lg:left-10 lg:right-10"
+          >
+            <a
+              href="#slide2"
+              class="btn btn-circle bg-transparent text-3xl text-black shadow-none"
+              >❮</a
+            >
+            <a
+              href="#slide4"
+              class="btn btn-circle bg-transparent text-3xl text-black shadow-none"
+              >❯</a
+            >
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <div
+            class="mx-auto items-center justify-between rounded-lg bg-[#E76F511A] px-5 py-10 md:flex md:p-16 lg:p-24"
+          >
+            <!-- text part -->
+            <div class="space-y-5 md:w-1/2">
+              <h1
+                class="font-extrabold text-black md:text-4xl/snug lg:text-5xl/snug"
+              >
+                Ride-on R15 V4 with Smile
+              </h1>
+              <p class="text-[#000000CC]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-[#E76F51] text-white">Purchase</button>
+            </div>
+            <!-- image part -->
+            <div class="mx-auto w-8/12 md:mx-0 md:w-auto">
+              <img src="./assets/slider/bike4.png" class="w-full" />
+            </div>
+          </div>
+          <div
+            class="absolute left-1 right-1 top-2/3 flex -translate-y-1/2 transform justify-between md:left-6 md:right-6 md:top-1/2 lg:left-10 lg:right-10"
+          >
+            <a
+              href="#slide3"
+              class="btn btn-circle bg-transparent text-3xl text-black shadow-none"
+              >❮</a
+            >
+            <a
+              href="#slide1"
+              class="btn btn-circle bg-transparent text-3xl text-black shadow-none"
+              >❯</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main
+      class="container mx-auto space-y-16 px-5 pb-16 pt-12 sm:pt-20 md:space-y-24 md:pb-24 md:pt-32 lg:space-y-32 lg:pb-32 lg:pt-40"
+    >
+      <!-- featured bikes in the year -->
+      <section class="text-center font-pop">
+        <p class="text-3xl font-bold text-black md:text-5xl">
+          Featured Bikes In This Year
+        </p>
+        <p
+          class="mx-auto mt-4 w-max border-b-2 border-solid border-[#E76F51] pb-1 text-sm font-medium text-[#E76F51]"
+        >
+          Best bike collection
+        </p>
+        <div
+          class="mt-12 flex flex-col items-center justify-between space-y-8 md:flex-row md:space-y-0"
+        >
+          <div>
+            <img
+              src="./assets/others/feature-bike.png"
+              alt=""
+              class="mx-auto w-2/3 grayscale md:mx-0 md:w-10/12 lg:w-full"
+            />
+          </div>
+          <div>
+            <img
+              src="./assets/others/feature-bike.png"
+              alt=""
+              class="mx-auto w-2/3 md:mx-0 md:w-10/12 lg:w-full"
+            />
+          </div>
+          <div>
+            <img
+              src="./assets/others/feature-bike.png"
+              alt=""
+              class="mx-auto w-2/3 grayscale md:mx-0 md:w-10/12 lg:w-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- latest news section -->
+      <section class="space-y-10 font-pop md:space-y-12 lg:space-y-16">
+        <h1 class="text-center text-3xl font-bold text-black md:text-5xl">
+          latest News
+        </h1>
+        <div
+          class="flex flex-col items-center justify-between space-y-6 md:flex-row md:items-start md:space-x-2 md:space-y-0"
+        >
+          <!-- card number 1 -->
+          <div
+            class="card max-w-sm rounded-md border bg-base-100 p-5 shadow-xl lg:w-96"
+          >
+            <figure>
+              <img
+                src="./assets/others/latest1.png"
+                alt="Shoes"
+                class="rounded-lg"
+              />
+            </figure>
+            <div class="">
+              <h2
+                class="mb-2 mt-6 text-2xl font-semibold text-[#18191F] md:mb-3 md:mt-10 md:text-3xl"
+              >
+                Ducati XDIAVEL<br class="md:hidden lg:inline-block" />S-73
+              </h2>
+              <p class="text-sm text-[#6C6C6C] sm:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="mt-6 md:mt-10">
+                <button class="btn rounded-md bg-[#E76F51] text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card number 2 -->
+          <div
+            class="card max-w-sm rounded-md border bg-base-100 p-5 shadow-xl lg:w-96"
+          >
+            <figure>
+              <img
+                src="./assets/others/latest2.png"
+                alt="Shoes"
+                class="rounded-lg"
+              />
+            </figure>
+            <div class="">
+              <h2
+                class="mb-2 mt-6 text-2xl font-semibold text-[#18191F] md:mb-3 md:mt-10 md:text-3xl"
+              >
+                Motorcycles & Scooters
+              </h2>
+              <p class="text-sm text-[#6C6C6C] sm:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="mt-6 md:mt-10">
+                <button class="btn rounded-md bg-[#E76F51] text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- card number 3 -->
+          <div
+            class="card max-w-sm rounded-md border bg-base-100 p-5 shadow-xl lg:w-96"
+          >
+            <figure>
+              <img
+                src="./assets/others/latest3.png"
+                alt="Shoes"
+                class="rounded-lg"
+              />
+            </figure>
+            <div class="">
+              <h2
+                class="mb-2 mt-6 text-2xl font-semibold text-[#18191F] md:mb-3 md:mt-10 md:text-3xl"
+              >
+                2021 Honda<br />CBR500R
+              </h2>
+              <p class="text-sm text-[#6C6C6C] sm:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="mt-6 md:mt-10">
+                <button class="btn rounded-md bg-[#E76F51] text-white">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Happy Clients says -->
+      <section class="space-y-10 font-pop md:space-y-12 lg:space-y-16">
+        <h1 class="text-center text-3xl font-bold text-black md:text-5xl">
+          Happy <span class="text-[#E76F51]">Clients says</span>
+        </h1>
+        <div
+          class="flex flex-col items-center justify-between space-y-6 md:flex-row md:items-start md:space-x-2 md:space-y-0"
+        >
+          <!-- card number 1 -->
+          <div
+            class="card max-w-sm space-y-4 rounded-md border bg-base-100 p-5 text-center shadow-xl lg:w-96"
+          >
+            <div class="space-y-7">
+              <figure class="mx-auto w-1/2">
+                <img
+                  src="./assets/others/user-1.png"
+                  alt="Shoes"
+                  class="w-full border-none"
+                />
+              </figure>
+              <p class="text-sm text-[#6C6C6C] sm:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+            </div>
+            <!-- rating section  -->
+            <div class="m-auto flex space-x-2 text-[#E77C40]">
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img src="./assets/icons/star-half-stroke-solid.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-sm font-medium text-[#23A6F0]">Regina Miles</p>
+            <p class="text-sm font-medium text-[#252B42]">Banker</p>
+          </div>
+          <!-- card number 2 -->
+          <div
+            class="card max-w-sm space-y-4 rounded-md border bg-base-100 p-5 text-center shadow-xl lg:w-96"
+          >
+            <div class="space-y-7">
+              <figure class="mx-auto w-1/2">
+                <img
+                  src="./assets/others/user-2.png"
+                  alt="Shoes"
+                  class="w-full border-none"
+                />
+              </figure>
+              <p class="text-sm text-[#6C6C6C] sm:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+            </div>
+            <!-- rating section  -->
+            <div class="m-auto flex space-x-2 text-[#E77C40]">
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img src="./assets/icons/star-half-stroke-solid.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-sm font-medium text-[#23A6F0]">Regina Miles</p>
+            <p class="text-sm font-medium text-[#252B42]">Banker</p>
+          </div>
+          <!-- card number 3 -->
+          <div
+            class="card max-w-sm space-y-4 rounded-md border bg-base-100 p-5 text-center shadow-xl lg:w-96"
+          >
+            <div class="space-y-7">
+              <figure class="mx-auto w-1/2">
+                <img
+                  src="./assets/others/user-3.png"
+                  alt="Shoes"
+                  class="w-full border-none"
+                />
+              </figure>
+              <p class="text-sm text-[#6C6C6C] sm:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+            </div>
+            <!-- rating section  -->
+            <div class="m-auto flex space-x-2 text-[#E77C40]">
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img
+                  src="./assets/icons/star-solid.svg"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-5">
+                <img src="./assets/icons/star-half-stroke-solid.svg" alt="" />
+              </div>
+            </div>
+            <p class="text-sm font-medium text-[#23A6F0]">Regina Miles</p>
+            <p class="text-sm font-medium text-[#252B42]">Banker</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer
+      class="bg-[#0B0D17] pb-10 pt-20 md:pb-20 md:pt-14 lg:pb-20 lg:pt-16"
+    >
+      <!-- main part -->
+      <section
+        class="container mx-auto space-y-12 px-5 md:flex md:items-center md:justify-between md:space-y-0"
+      >
+        <!-- first part -->
+        <div class="space-y-3">
+          <!-- row 1 -->
+          <ul class="flex space-x-6">
+            <li><a href="" class="font-man text-white">Download Now</a></li>
+            <li><a href="" class="font-man text-white">License</a></li>
+          </ul>
+
+          <!-- row 2 -->
+          <div class="space-x-0 space-y-3 md:flex md:space-x-6 md:space-y-0">
+            <ul class="flex space-x-6">
+              <li><a href="" class="font-man text-white">About</a></li>
+              <li><a href="" class="font-man text-white">Features</a></li>
+              <li><a href="" class="font-man text-white">Pricing</a></li>
+            </ul>
+            <ul class="flex space-x-6">
+              <li><a href="" class="font-man text-white">Help</a></li>
+              <li><a href="" class="font-man text-white">Careers</a></li>
+              <li><a href="" class="font-man text-white">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <!-- row 3 -->
+          <p class="hidden pt-3 text-sm text-[#D9DBE1] md:inline-block">
+            © 2020 bike. All rights reserved
+          </p>
+        </div>
+
+        <!-- download link part -->
+        <div class="space-y-4">
+          <p class="font-man text-lg text-[#D9DBE1]">Get the App</p>
+          <div class="w-32">
+            <img src="./assets/others/android.png" alt="" class="w-full" />
+          </div>
+          <div class="w-32">
+            <img src="./assets/others/ios.png" alt="" class="w-full" />
+          </div>
+        </div>
+
+        <!-- small copyright part -->
+        <p class="pt-3 text-center text-sm text-[#D9DBE1] md:hidden">
+          © 2020 bike. All rights reserved
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
